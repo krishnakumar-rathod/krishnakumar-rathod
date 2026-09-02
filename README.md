@@ -37,7 +37,7 @@ Scan the QR on your table, order, split the bill over UPI. Kitchen Display Syste
 ### 🎬 [Tara Invitation Video Maker](https://github.com/krishnakumar-rathod/tara-invitation-video-maker) — automated video rendering platform
 Customers upload photos and details; the system renders a personalised wedding invitation video with no human in the loop. The interesting part is the pipeline: a Linux API server dispatches render jobs over Socket.IO to a Windows render agent driving After Effects via `aerender`, then delivers the finished video through S3 and CloudFront.
 
-`Node.js` `MongoDB Atlas` `Socket.IO` `After Effects (aerender)` `Docker` `AWS EC2 (Ubuntu + Windows Server)` `CloudFront`
+`Node.js` `MongoDB Atlas` `Socket.IO` `Docker` `AWS EC2 (Ubuntu + Windows Server)` `CloudFront` `After Effects (aerender)` 
 
 ---
 
